@@ -1,0 +1,31 @@
+
+.header {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.logo {
+    margin: auto auto;
+    
+}
+
+.ul {
+    display: flex;
+    gap: 2em;
+    margin: auto auto;
+}
+
+.li {
+    font-size: 1.3rem;
+}
+
+.icon {
+
+}
