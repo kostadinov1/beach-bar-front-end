@@ -25,6 +25,13 @@
 .li {
     font-size: 1.3rem;
 }
+.navbar_li {
+    color: red;
+}
+.navbar_li:hover {
+    cursor: pointer;
+    color: var(--accent);
+}
 
 .icon {
 

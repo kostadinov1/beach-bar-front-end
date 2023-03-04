@@ -1,8 +1,9 @@
 :root {
   /* < ----- COLORS ----- > */
-  --dark: rgb(18, 46, 111);
-  --light: whitesmoke;
-  --accent: red;
+  --primary: rgb(18, 46, 111);
+  --secondary: whitesmoke;
+  --accent: rgb(18, 49, 121);
+  --shadow: rgba(110, 0, 0, 0.9);
   /* < ----- FIXED VALUES ----- > */
   --b-radius: 4px;
   --bg-color: red;
@@ -12,11 +13,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
+/* 
 * {
-    box-sizing: border-box;
     border-radius: var(--b-radius);
-}
+} */
 
 li {
   list-style: none;
@@ -26,6 +26,7 @@ a {
   text-decoration: none;
 }
 a:hover {
+  cursor: pointer;
   color: red;
 }
 
@@ -35,8 +36,8 @@ button {
   background-color: var(--light);
 }
 
-#main {
-  background-color: rgb(184, 180, 180);
-  height: 100vh;
+main {
+  background-color: var(--secondary);
+  min-height: 100vh;
 }
 

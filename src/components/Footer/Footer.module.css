@@ -1,4 +1,6 @@
 .footer {
+    position: relative;
+    bottom: 0px;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -6,4 +8,6 @@
     align-content: center;
     justify-content: center;
     gap: 5em;
+
+    background-color: var(--accent);
 }
