@@ -68,7 +68,7 @@ function Hero() {
     <div className={styles.hero}>
         <div className={`${styles.cardOne} ${styles.card}`}>
 
-            <img className={styles.image} src={'./images/aigen/logos/aigen-logo-2.png'} alt=''></img> 
+            <img className={styles.image} src={'./images/backgrounds/background-01.jpg'} alt=''></img> 
             <div className={styles.desc}>
                 <h3>Title...</h3>
                 <date>Date: 12 july 2023</date>
@@ -77,7 +77,7 @@ function Hero() {
         </div>
         <div className={`${styles.cardTwo} ${styles.card}`}>
 
-            <img className={styles.image} src={'./images/aigen/logos/aigen-logo-3.png'} alt=''></img> 
+            <img className={styles.image} src={'./images/backgrounds/background-02.jpg'} alt=''></img> 
             <div className={styles.desc}>
                 <h3>Title...</h3>
                 <date>Date: 12 july 2023</date>
@@ -86,7 +86,7 @@ function Hero() {
         </div>
         <div className={`${styles.cardThree} ${styles.card}`}>
 
-            <img className={styles.image} src={'./images/aigen/logos/aigen-logo-1.png'} alt=''></img> 
+            <img className={styles.image} src={'./images/backgrounds/background-03.jpg'} alt=''></img> 
             <div className={styles.desc}>
                 <h3>Title...</h3>
                 <date>Date: 12 july 2023</date>
@@ -95,7 +95,7 @@ function Hero() {
         </div>
         <div className={`${styles.cardFour} ${styles.card}`}>
 
-            <img className={styles.image} src={'./images/aigen/logos/aigen-logo-4.png'} alt=''></img> 
+            <img className={styles.image} src={'./images/backgrounds/background-04.jpg'} alt=''></img> 
             <div className={styles.desc}>
                 <h3>Title...</h3>
                 <date>Date: 12 july 2023</date>
@@ -103,7 +103,7 @@ function Hero() {
             </div>
         </div>  
         <div className={`${styles.cardFive} ${styles.card}`}>
-            <img className={styles.image} src={'./images/aigen/logos/aigen-logo-4.png'} alt=''></img> 
+            <img className={styles.image} src={'./images/backgrounds/background-05.jpg'} alt=''></img> 
             <div className={styles.desc}>
                 <h3>Title...</h3>
                 <date>Date: 12 july 2023</date>
@@ -111,7 +111,7 @@ function Hero() {
             </div>
         </div>  
         <div className={`${styles.cardSix} ${styles.card}`}>
-            <img className={styles.image} src={'./images/aigen/logos/aigen-logo-4.png'} alt=''></img> 
+            <img className={styles.image} src={'./images/backgrounds/background-06.jpg'} alt=''></img> 
             <div className={styles.desc}>
                 <h3>Title...</h3>
                 <date>Date: 12 july 2023</date>

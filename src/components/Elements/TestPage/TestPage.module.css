@@ -1,0 +1,41 @@
+
+.div {
+    padding: 4em;
+    min-height: 100vh;
+    border: 0.2em solid var(--grayish);
+}
+
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 60vw;
+    margin: auto auto;
+    padding: 4em;
+    
+    background-color: var(--grayish);
+    border: 0.2em solid var(--gray);
+    border-radius: var(--b-radius);
+}
+
+.input {
+    width: calc(50% - 0.2em);
+    margin: 0.1em;
+    padding: 0.8em;
+    border: 0.1em solid var(--gray);
+    border-radius: var(--b-radius);
+}
+
+.textarea {
+    min-width: 100%;
+    margin: 0.1em;
+    padding: 0.8em;
+    border: 0.1em solid var(--gray);
+    border-radius: var(--b-radius);
+}
+
+.button {
+    border: 0.1em solid var(--gray);
+    border-radius: var(--b-radius);
+}

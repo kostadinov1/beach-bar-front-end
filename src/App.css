@@ -1,17 +1,26 @@
 :root {
   /* < ----- COLORS ----- > */
-  --primary: rgb(18, 46, 111);
-  --secondary: whitesmoke;
-  --accent: rgb(18, 49, 121);
-  --shadow: rgba(110, 0, 0, 0.9);
+  /* --orange: rgb(255, 139, 0); */
+  --orange: rgba(182, 101, 2, 0.843);
+  --yellow: rgb(255, 198, 11);
+  --gray: rgb(68, 68, 68);
+  --grayish: rgba(223, 222, 219, 0.9);
+  --whitish: rgb(254, 255, 219);
+
   /* < ----- FIXED VALUES ----- > */
   --b-radius: 4px;
-  --bg-color: red;
 }
 
+
+/* font-family: 'Climate Crisis', cursive;
+font-family: 'Dokdo', cursive;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', Helvetica, sans-serif;
     font-size: 16px;
+    color: var(--whitish);
 }
 /* 
 * {
@@ -24,20 +33,33 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--gray);
 }
 a:hover {
   cursor: pointer;
-  color: red;
+  color: var(--whitish);
 }
 
 button {
   all: unset;
-  color: var(--dark);
-  background-color: var(--light);
+  color: var(--gray);
+  border: 0.2em solid var(--gray);
+  border-radius: var(--b-radius);
+  margin: 0.2em;
+  padding: 0.2em 1em;
+}
+button:hover {
+  -webkit-transform: scale(1.1);
+  transition: all 500ms ease-in-out;
+  color: var(--orange);
+  background-color: var(--gray);
 }
 
 main {
-  background-color: var(--secondary);
+  background-color: var(--orange);
+  /* background-image: url('/public/images/aigen/logos/aigen-logo-6.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
   min-height: 100vh;
 }
 

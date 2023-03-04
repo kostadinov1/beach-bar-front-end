@@ -1,32 +1,51 @@
 
 .header {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    border: 2px solid black;
-    background-color: transparent;
+
+    border: 0.1em solid var(--grayish);
+    border-radius: var(--b-radius);
+
+    background-color: var(--orange);
+    
+
+    z-index: 1;
 }
 
 .logo {
-    margin: auto auto;
-    
+    margin-left: 3em;
+    font-size: 3em;
+    font-family: 'Dokdo', cursive;
 }
 
 .ul {
     display: flex;
-    gap: 2em;
+    gap: 0.6em;
     margin: auto auto;
 }
 
 .li {
+    border-radius: var(--b-radius);
     font-size: 1.3rem;
+    color: var(--gray);
+}
+.li:hover {
+    color: var(--gray);
+    background-color: var(--whitish);
 }
 .navbar_li {
-    color: red;
+    color: var(--whitish);
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    padding: 0.5em 0.2em;
+    margin: 0.5em;
 }
 .navbar_li:hover {
     cursor: pointer;
